@@ -1,0 +1,8 @@
+# cook your dish here
+for _ in range(int(input())):
+    a,b=map(int,input().split())
+    l=a//2
+    r=b//2
+    lp='1'*l+'2'*r
+    p=lp+lp[::-1]
+    print(p)
